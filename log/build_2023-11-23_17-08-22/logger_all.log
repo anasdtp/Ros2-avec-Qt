@@ -1,0 +1,104 @@
+[1.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.258s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2944b72a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2944fcf700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2944fcf700>>)
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.316s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/anas/ros2_humble/src/cmd_dynamixel_qt'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.316s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.317s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.333s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'cmd_dynamixel_qt'
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.482s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/anas/ros2_humble/install
+[1.506s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[1.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_args' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_target' from command line to 'None'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_clean_cache' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_clean_first' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'cmake_force_configure' from command line to 'False'
+[1.618s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'ament_cmake_args' from command line to 'None'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'catkin_cmake_args' from command line to 'None'
+[1.619s] Level 5:colcon.colcon_core.verb:set package 'cmd_dynamixel_qt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.619s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_dynamixel_qt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/anas/ros2_humble/src/cmd_dynamixel_qt/build/cmd_dynamixel_qt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt', 'merge_install': False, 'path': '/home/anas/ros2_humble/src/cmd_dynamixel_qt', 'symlink_install': False, 'test_result_base': None}
+[1.637s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.657s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/anas/ros2_humble/src/cmd_dynamixel_qt' with build type 'ament_cmake'
+[1.657s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/anas/ros2_humble/src/cmd_dynamixel_qt'
+[1.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.764s] ERROR:colcon.colcon_core.shell:Exception in shell extension 'sh': [Errno 17] File exists: '/home/anas/ros2_humble/src/cmd_dynamixel_qt/build/cmd_dynamixel_qt'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/__init__.py", line 306, in get_command_environment
+    return await extension.generate_command_environment(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/sh.py", line 148, in generate_command_environment
+    expand_template(
+  File "/usr/lib/python3/dist-packages/colcon_core/shell/template/__init__.py", line 49, in expand_template
+    os.makedirs(str(destination_path.parent), exist_ok=True)
+  File "/usr/lib/python3.10/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/home/anas/ros2_humble/src/cmd_dynamixel_qt/build/cmd_dynamixel_qt'
+
+[1.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'bash' for command environment
+[1.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'zsh' for command environment
+[1.764s] ERROR:colcon.colcon_cmake.task.cmake.build:Could not find a shell extension for the command environment
+[1.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_dynamixel_qt)
+[1.803s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt' for CMake module files
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt' for CMake config files
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/bin'
+[1.805s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/lib/pkgconfig/cmd_dynamixel_qt.pc'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/lib/python3.10/site-packages'
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/bin'
+[1.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/cmd_dynamixel_qt/package.ps1'
+[1.844s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/cmd_dynamixel_qt/package.dsv'
+[1.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/cmd_dynamixel_qt/package.sh'
+[1.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/cmd_dynamixel_qt/package.bash'
+[1.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/cmd_dynamixel_qt/package.zsh'
+[1.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/cmd_dynamixel_qt/share/colcon-core/packages/cmd_dynamixel_qt)
+[1.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.853s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[1.853s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.854s] ERROR:colcon.colcon_core.event_reactor:Exception in event handler extension 'store_result': [Errno 17] File exists: '/home/anas/ros2_humble/src/cmd_dynamixel_qt/build/cmd_dynamixel_qt'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/event_reactor.py", line 78, in _notify_observers
+    retval = observer(event)
+  File "/usr/lib/python3/dist-packages/colcon_package_selection/package_selection/previous/event_handler.py", line 53, in __call__
+    set_result(job.task_context.args.build_base, verb_name, result)
+  File "/usr/lib/python3/dist-packages/colcon_package_selection/package_selection/previous/__init__.py", line 35, in set_result
+    path.parent.mkdir(parents=True, exist_ok=True)
+  File "/usr/lib/python3.10/pathlib.py", line 1175, in mkdir
+    self._accessor.mkdir(self, mode)
+FileExistsError: [Errno 17] File exists: '/home/anas/ros2_humble/src/cmd_dynamixel_qt/build/cmd_dynamixel_qt'
+
+[1.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.904s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.935s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/local_setup.ps1'
+[2.035s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/_local_setup_util_ps1.py'
+[2.040s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/setup.ps1'
+[2.123s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/local_setup.sh'
+[2.126s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/_local_setup_util_sh.py'
+[2.127s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/setup.sh'
+[2.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/local_setup.bash'
+[2.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/setup.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/local_setup.zsh'
+[2.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/anas/ros2_humble/src/cmd_dynamixel_qt/install/setup.zsh'

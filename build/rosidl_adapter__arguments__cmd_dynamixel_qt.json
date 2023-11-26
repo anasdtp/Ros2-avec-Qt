@@ -1,0 +1,7 @@
+{
+  "package_name": "cmd_dynamixel_qt",
+  "non_idl_tuples": [
+    "/home/anas/ros2_humble/src/cmd_dynamixel_qt:msg/SetPosition.msg",
+    "/home/anas/ros2_humble/src/cmd_dynamixel_qt:srv/GetPosition.srv"
+  ]
+}

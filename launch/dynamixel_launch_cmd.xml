@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="dynamixel_sdk_examples" exec="dynamixel_node"/>
+    <node pkg="cmd_dynamixel_qt" exec="cmd_dynamixel_qt" />
+</launch>

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000515] (cmd_dynamixel_qt) JobQueued: {'identifier': 'cmd_dynamixel_qt', 'dependencies': OrderedDict()}
+[0.003147] (cmd_dynamixel_qt) JobStarted: {'identifier': 'cmd_dynamixel_qt'}
+[0.099758] (-) TimerEvent: {}
+[0.200770] (-) TimerEvent: {}
+[0.301834] (-) TimerEvent: {}
+[0.312661] (cmd_dynamixel_qt) JobEnded: {'identifier': 'cmd_dynamixel_qt', 'rc': 1}
+[0.324101] (-) EventReactorShutdown: {}

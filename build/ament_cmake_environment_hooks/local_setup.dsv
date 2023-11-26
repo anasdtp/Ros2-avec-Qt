@@ -1,0 +1,2 @@
+source;share/cmd_dynamixel_qt/environment/ament_prefix_path.sh
+source;share/cmd_dynamixel_qt/environment/path.sh
