@@ -5,3 +5,5 @@ Second Challenge aprés celui-là : controler des dynamixel à partir de cette i
 
 cd ros2_wrks/src/cmd_dynamixel_qt/launch
 ros2 launch dynamixel_launch_cmd.xml
+
+Travail sur Vscode. Utilisation de Qtdesigner pour le .ui
